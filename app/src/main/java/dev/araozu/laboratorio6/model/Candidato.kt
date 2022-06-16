@@ -1191,7 +1191,7 @@ data class Candidato(
         )
 
 
-        //candidatos de
+        //candidatos de Sabandia
         private val candidatosab1 = Candidato(
             "Herless Ronald Diaz Perea",
             Partido.Arequipa_Tradicion_Futuro,
@@ -1234,46 +1234,105 @@ data class Candidato(
         )
 
         // Candidatos Sachaca
-        private val candidatosach1 = Candidato(
-            "Evaristo Florentino Calderon Nuñez",
+        private val cSACHACA0 = Candidato(
+            "ALDO ALEJANDRO HERNANI CRESPO",
+            Partido.Arequipa_transformacion,
+            "https://i.imgur.com/f6RVNge.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA1 = Candidato(
+            "ALEXANDER BERENI ESPINOZA VALENCIA",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/ceJWhdw.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA2 = Candidato(
+            "EVARISTO FLORENTINO CALDERON NUÑEZ",
             Partido.Arequipa_Tradicion_Futuro,
-            "https://i.imgur.com/4nF2ArQb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/EwUqysf.jpg",
+            loremIpsum,
             Distrito.SACHACA
         )
-        private val candidatosach2 = Candidato(
-            "Ivan Fortunato Fernandez Febres",
+        private val cSACHACA3 = Candidato(
+            "FERNANDO ISAEL ZAPANA HUARANCA",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/bCkEfJ7.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA4 = Candidato(
+            "GONZALO ANDRE MEDINA ORBEGOSO",
+            Partido.Partido_Frente_De_La_Esperanza_2021,
+            "https://i.imgur.com/AiiWYyn.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA5 = Candidato(
+            "IVAN FORTUNATO FERNANDEZ FEBRES",
             Partido.Movimiento_Regional_Reveladora,
-            "https://i.imgur.com/K5uxw3ab.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/C9vTllN.jpg",
+            loremIpsum,
             Distrito.SACHACA
         )
-        private val candidatosach3 = Candidato(
-            "Miguel Angel Cuadros Paredes",
-            Partido.Fuerza_Arequipenya,
-            "https://i.imgur.com/WSAJkftb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.SACHACA
-        )
-        private val candidatosach4 = Candidato(
-            "Renzo ALonso Salas Herrera",
-            Partido.Movimineto_Regional_Arequipa_Avancemos,
-            "https://i.imgur.com/FJ1xcSkb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.SACHACA
-        )
-        private val candidatosach5 = Candidato(
-            "Lissett Romina Diaz Valdez",
+        private val cSACHACA6 = Candidato(
+            "LISSETT ROMINA DIAZ VALDEZ",
             Partido.Renovacion_Popular,
-            "https://i.imgur.com/89g6ke6b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/GGNk9UM.jpg",
+            loremIpsum,
             Distrito.SACHACA
         )
+        private val cSACHACA7 = Candidato(
+            "MARCO ANTONIO MALAGA ZENTENO",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/zzIckR2.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA8 = Candidato(
+            "MARILIA NORMA YUCRA MAMANI",
+            Partido.Avanza_Pais_Partido_De_Integracion_Social,
+            "https://i.imgur.com/cf0tcN3.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA9 = Candidato(
+            "MICHAEL GERALD ROSAS AVENDAÑO",
+            Partido.Alianza_Para_El_Progreso,
+            "https://i.imgur.com/22uygBu.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA10 = Candidato(
+            "MIGUEL ANGEL CUADROS PAREDES",
+            Partido.Fuerza_Arequipenya,
+            "https://i.imgur.com/n2MgVl7.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA11 = Candidato(
+            "MIGUEL ILDEFONSO NINA MELGAR",
+            Partido.Arequipa_Unidos_Por_El_Gran_Cambio,
+            "https://i.imgur.com/2IY3neD.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA12 = Candidato(
+            "RENZO ALONSO SALAS HERRERA",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/OaYKi4e.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+        private val cSACHACA13 = Candidato(
+            "RUSVEL PEPE SUCARI PRADO",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/Orf1D4J.jpg",
+            loremIpsum,
+            Distrito.SACHACA
+        )
+
 
         //Candidatos Socabaya
         private val candidatosoc1 = Candidato(
@@ -1661,12 +1720,23 @@ data class Candidato(
             candidatosab3,
             candidatosab4,
             candidatosab5,
+
             //Candidatos Sachaca
-            candidatosach1,
-            candidatosach2,
-            candidatosach3,
-            candidatosach4,
-            candidatosach5,
+            cSACHACA0,
+            cSACHACA1,
+            cSACHACA2,
+            cSACHACA3,
+            cSACHACA4,
+            cSACHACA5,
+            cSACHACA6,
+            cSACHACA7,
+            cSACHACA8,
+            cSACHACA9,
+            cSACHACA10,
+            cSACHACA11,
+            cSACHACA12,
+            cSACHACA13,
+
             //Candidatos Socabaya
             candidatosoc1,
             candidatosoc2,
