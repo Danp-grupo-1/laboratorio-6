@@ -59,4 +59,9 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+    // Material you
+    implementation "androidx.compose.material3:material3:1.0.0-alpha12"
+    implementation "androidx.compose.material3:material3-window-size-class:1.0.0-alpha12"
+    // Images from internet
+    implementation("io.coil-kt:coil-compose:2.1.0")
 }
