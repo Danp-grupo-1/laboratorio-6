@@ -1049,46 +1049,147 @@ data class Candidato(
 
 
         //Candidatos Paucarpata
-        private val candidatopau1 = Candidato(
-            "Marco Antonio Anco Huarachi",
-            Partido.Arequipa_Tradicion_Futuro,
-            "https://i.imgur.com/kmia98Nb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.PAUCARPATA
-        )
-        private val candidatopau2 = Candidato(
-            "Esteban Llacchua Segovia",
-            Partido.Frente_Popular_Agricola_del_Peru,
-            "https://i.imgur.com/Qb17HUFb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.PAUCARPATA
-        )
-        private val candidatopau3 = Candidato(
-            "Angel David Condori",
-            Partido.Partido_Democratico_Somos_Peru,
-            "https://i.imgur.com/2lWpbsub.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.PAUCARPATA
-        )
-        private val candidatopau4 = Candidato(
-            "Alvaro Florentino Rojas Chavez",
+        private val cPAUCARPATA0 = Candidato(
+            "ALVARO FLORENCIO ROJAS CHAVEZ",
             Partido.Fe_En_El_Peru,
-            "https://i.imgur.com/GFbUgf0b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/m3XfCxU.jpg",
+            loremIpsum,
             Distrito.PAUCARPATA
         )
-        private val candidatopau5 = Candidato(
-            "Raul Gregorio Chara Chambi",
+        private val cPAUCARPATA1 = Candidato(
+            "ALVARO MAURICIO MOSCOSO MERCADO",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/Zq58s89.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA2 = Candidato(
+            "ALVARO RICHARD CARI CHOQUECOTA",
+            Partido.Movimiento_Regional_Reveladora,
+            "https://i.imgur.com/KYXqWUx.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA3 = Candidato(
+            "ANGEL DAVID CONDORI ",
+            Partido.Partido_Democratico_Somos_Peru,
+            "https://i.imgur.com/ZH1cZWd.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA4 = Candidato(
+            "ANTONIO ZAVALA VEGA",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/7mcxv5K.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA5 = Candidato(
+            "CRISTIAN ERNESTO TEJADA RIVAS",
+            Partido.Movimiento_Regional_Del_Ajo_Justicia_Y_Orden,
+            "https://i.imgur.com/3Q4m0r2.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA6 = Candidato(
+            "EDWIN WILLY VILCA MAMANI",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/oVnXTZD.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA7 = Candidato(
+            "ELISEO BUSTINCIO ARI",
+            Partido.Podemos_Peru,
+            "https://i.imgur.com/IbgP2Nq.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA8 = Candidato(
+            "ESTEBAN LLACCHUA SEGOVIA",
+            Partido.Frente_Popular_Agricola_del_Peru,
+            "https://i.imgur.com/cYmNYY3.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA9 = Candidato(
+            "FLOR DEL ROSARIO EDUARDO CUADROS",
+            Partido.Arequipa_Unidos_Por_El_Gran_Cambio,
+            "https://i.imgur.com/Yg4SX44.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA10 = Candidato(
+            "FRANK PETER SALCEDO VENERO",
+            Partido.Partido_Morado,
+            "https://i.imgur.com/mphASI1.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA11 = Candidato(
+            "FRANKLIN MAXON VALDIVIA CHAVEZ",
+            Partido.Fuerza_Arequipenya,
+            "https://i.imgur.com/RVBVsDT.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA12 = Candidato(
+            "FREDY ALDO MAMANI CONDORI",
+            Partido.Renovacion_Popular,
+            "https://i.imgur.com/IHi3yuH.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA13 = Candidato(
+            "GEHOVA MICHELE MEDINA ARENAS",
+            Partido.Alianza_Para_El_Progreso,
+            "https://i.imgur.com/EdfuATj.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA14 = Candidato(
+            "GUIDO RICARDO RAMOS PAREDES",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/wkXfvde.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA15 = Candidato(
+            "GUSTAVO PUMA CACERES",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/GLjgM0C.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA16 = Candidato(
+            "JOSE FELIPE MANRIQUE SALAS",
+            Partido.Accion_Popular,
+            "https://i.imgur.com/NgvIkQq.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA17 = Candidato(
+            "JUAN DAVID CHAVEZ FARFAN",
+            Partido.Avanza_Pais_Partido_De_Integracion_Social,
+            "https://i.imgur.com/Xp6RMcH.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA18 = Candidato(
+            "MARCO ANTONIO ANCO HUARACHI",
+            Partido.Arequipa_Tradicion_Futuro,
+            "https://i.imgur.com/ng0w5r2.jpg",
+            loremIpsum,
+            Distrito.PAUCARPATA
+        )
+        private val cPAUCARPATA19 = Candidato(
+            "RAUL GREGORIO CHARA CHAMBI",
             Partido.Arequipa_transformacion,
-            "https://i.imgur.com/yx2yGplb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/EyZBZmn.jpg",
+            loremIpsum,
             Distrito.PAUCARPATA
         )
+
 
         //candidatos de
         private val candidatosab1 = Candidato(
@@ -1532,11 +1633,28 @@ data class Candidato(
             cMIRAFLORES16,
 
             //Candidatos Paucarpata
-            candidatopau1,
-            candidatopau2,
-            candidatopau3,
-            candidatopau4,
-            candidatopau5,
+            cPAUCARPATA0,
+            cPAUCARPATA1,
+            cPAUCARPATA2,
+            cPAUCARPATA3,
+            cPAUCARPATA4,
+            cPAUCARPATA5,
+            cPAUCARPATA6,
+            cPAUCARPATA7,
+            cPAUCARPATA8,
+            cPAUCARPATA9,
+            cPAUCARPATA10,
+            cPAUCARPATA11,
+            cPAUCARPATA12,
+            cPAUCARPATA13,
+            cPAUCARPATA14,
+            cPAUCARPATA15,
+            cPAUCARPATA16,
+            cPAUCARPATA17,
+            cPAUCARPATA18,
+            cPAUCARPATA19,
+
+
             //Candidatos Sabandia
             candidatosab1,
             candidatosab2,
