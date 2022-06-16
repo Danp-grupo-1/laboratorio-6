@@ -825,38 +825,105 @@ data class Candidato(
 
 
         //Candidatos Mariano Melgar
-        private val candidatomm1 = Candidato(
-            "Sergio Gonzales Apaza",
-            Partido.Arequipa_Tradicion_Futuro,
-            "https://i.imgur.com/FoaLu0cb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cMARIANO_MELGAR0 = Candidato(
+            "ANGEL GERARDO ESQUIVEL QUISPE",
+            Partido.Accion_Popular,
+            "https://i.imgur.com/NSVPBU3.jpg",
+            loremIpsum,
             Distrito.MARIANO_MELGAR
         )
-        private val candidatomm2 = Candidato(
-            "Jose Maquera Torres",
+        private val cMARIANO_MELGAR1 = Candidato(
+            "CARLOS ALBERTO CHAIÑA LIPA",
+            Partido.Arequipa_transformacion,
+            "https://i.imgur.com/C93hCJF.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR2 = Candidato(
+            "CARLOS ALEJANDRO ANDRADE PAREJA",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/e5noVCp.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR3 = Candidato(
+            "DINA KATHERINE REYNOSO CHACON",
+            Partido.Movimiento_Regional_Reveladora,
+            "https://i.imgur.com/btKxntm.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR4 = Candidato(
+            "EDSON CESAR FLORES VALENCIA",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/zhNFGMC.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR5 = Candidato(
+            "EFRAIN HERNAN ENRIQUEZ PEREZ",
+            Partido.Partido_Morado,
+            "https://i.imgur.com/0yXu7am.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR6 = Candidato(
+            "GOURVICH ROMULO PARI ONOFRIO",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/u7NUZmS.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR7 = Candidato(
+            "JAIRD JOHN ORTIZ MEDINA",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/qIOOjpA.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR8 = Candidato(
+            "JESUS JEHNER FLORES SANA",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/8BPAun4.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR9 = Candidato(
+            "JOSE MAQUERA TORRES",
             Partido.Frente_Popular_Agricola_del_Peru,
-            "https://i.imgur.com/PebXrv4b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/SeB1Q0v.jpg",
+            loremIpsum,
             Distrito.MARIANO_MELGAR
         )
-        private val candidatomm3 = Candidato(
-            "Oscar Alfredo Ayala Arenas",
+        private val cMARIANO_MELGAR10 = Candidato(
+            "LUIS ALBERTO MENDOZA PERALTA",
+            Partido.Partido_Frente_De_La_Esperanza_2021,
+            "https://i.imgur.com/aYzInPa.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+        private val cMARIANO_MELGAR11 = Candidato(
+            "OSCAR ALFREDO AYALA ARENAS",
             Partido.Fuerza_Arequipenya,
-            "https://i.imgur.com/Jmm1IcGb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/liBkPf3.jpg",
+            loremIpsum,
             Distrito.MARIANO_MELGAR
         )
-        private val candidatomm4 = Candidato(
-            "Roberto Carlo Molina Diaz",
+        private val cMARIANO_MELGAR12 = Candidato(
+            "ROBERTO CARLO MOLINA DIAZ",
             Partido.Partido_Democratico_Somos_Peru,
-            "https://i.imgur.com/jAwObDUb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/s5997hp.jpg",
+            loremIpsum,
             Distrito.MARIANO_MELGAR
         )
+        private val cMARIANO_MELGAR13 = Candidato(
+            "SERGIO GONZALES APAZA",
+            Partido.Arequipa_Tradicion_Futuro,
+            "https://i.imgur.com/FgmccpN.jpg",
+            loremIpsum,
+            Distrito.MARIANO_MELGAR
+        )
+
 
         //Candidatos Miraflores
         private val candidatomir1 = Candidato(
@@ -1349,10 +1416,21 @@ data class Candidato(
             cJOSE_LUIS_BUSTAMANTE_Y_RIVERO19,
 
             //Candiadtos Mariano Melgar
-            candidatomm1,
-            candidatomm2,
-            candidatomm3,
-            candidatomm4,
+            cMARIANO_MELGAR0,
+            cMARIANO_MELGAR1,
+            cMARIANO_MELGAR2,
+            cMARIANO_MELGAR3,
+            cMARIANO_MELGAR4,
+            cMARIANO_MELGAR5,
+            cMARIANO_MELGAR6,
+            cMARIANO_MELGAR7,
+            cMARIANO_MELGAR8,
+            cMARIANO_MELGAR9,
+            cMARIANO_MELGAR10,
+            cMARIANO_MELGAR11,
+            cMARIANO_MELGAR12,
+            cMARIANO_MELGAR13,
+
             //Candidatos Miraflores
             candidatomir1,
             candidatomir2,
