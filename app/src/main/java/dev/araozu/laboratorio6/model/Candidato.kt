@@ -926,46 +926,127 @@ data class Candidato(
 
 
         //Candidatos Miraflores
-        private val candidatomir1 = Candidato(
-            "German Torres Chambi",
+        private val cMIRAFLORES0 = Candidato(
+            "ABISAIT BRAHIM PACHAO LOVON",
+            Partido.Movimiento_Regional_Reveladora,
+            "https://i.imgur.com/rw57HMb.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES1 = Candidato(
+            "DANTE APAZA VIVEROS",
+            Partido.Arequipa_Renace,
+            "https://i.imgur.com/YjaXNu9.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES2 = Candidato(
+            "DONATO GUADALINO FLORES PUMACAJIA",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/C8Heu7F.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES3 = Candidato(
+            "ERIKA CANDY RAMOS CRUZ",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/uJtu9P1.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES4 = Candidato(
+            "FILAMIR CONTRERAS SILVA",
+            Partido.Alianza_Para_El_Progreso,
+            "https://i.imgur.com/OJ3rbTE.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES5 = Candidato(
+            "GERMAN TORRES CHAMBI",
             Partido.Arequipa_Tradicion_Futuro,
-            "https://i.imgur.com/T8NGpOKb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/UIiTrbS.jpg",
+            loremIpsum,
             Distrito.MIRAFLORES
         )
-        private val candidatomir2 = Candidato(
-            "Marco NatonioCenty Lopez",
-            Partido.Fuerza_Arequipenya,
-            "https://i.imgur.com/CCZz1FEb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cMIRAFLORES6 = Candidato(
+            "GIOVANNA ESTEFANIA CORDOVA ALVIZ",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/9GlXk7k.jpg",
+            loremIpsum,
             Distrito.MIRAFLORES
         )
-        private val candidatomir3 = Candidato(
-            "Jose Roberto Roque Quispe",
+        private val cMIRAFLORES7 = Candidato(
+            "HUBERT JESUS ALVAREZ MAMANI",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/2d2MSMw.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES8 = Candidato(
+            "JIM ROBERT CAMA HUARICALLO",
+            Partido.Accion_Popular,
+            "https://i.imgur.com/LTVwMc1.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES9 = Candidato(
+            "JORGE AMERICO GALARZA ALVAREZ",
+            Partido.Movimiento_Regional_Del_Ajo_Justicia_Y_Orden,
+            "https://i.imgur.com/zOhQr52.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES10 = Candidato(
+            "JOSE ROBERTO ROQUE QUISPE",
             Partido.Partido_Democratico_Somos_Peru,
-            "https://i.imgur.com/6Utbg47b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/bHcAZed.jpg",
+            loremIpsum,
             Distrito.MIRAFLORES
         )
-        private val candidatomir4 = Candidato(
-            "Pedro Ramiro Escobedo Aza",
-            Partido.Renovacion_Popular,
-            "https://i.imgur.com/EVAguhjb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.MIRAFLORES
-        )
-        private val candidatomir5 = Candidato(
-            "Luis Angel Sanxhez Ñaupa",
+        private val cMIRAFLORES11 = Candidato(
+            "LUIS ANGEL SANCHEZ ÑAUPA",
             Partido.Podemos_Peru,
-            "https://i.imgur.com/laaOB3tb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/JC8vhqK.jpg",
+            loremIpsum,
             Distrito.MIRAFLORES
         )
+        private val cMIRAFLORES12 = Candidato(
+            "LUIS CARMELO VACA TAYA",
+            Partido.Avanza_Pais_Partido_De_Integracion_Social,
+            "https://i.imgur.com/HZORAfC.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES13 = Candidato(
+            "MARCO ANTONIO CENTTY LOPEZ",
+            Partido.Fuerza_Arequipenya,
+            "https://i.imgur.com/zs3zMx7.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES14 = Candidato(
+            "MERCEDES AURORA LLAJARUNA MORETO",
+            Partido.Arequipa_Unidos_Por_El_Gran_Cambio,
+            "https://i.imgur.com/j6x90yQ.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES15 = Candidato(
+            "PEDRO RAMIRO ESCOBEDO AZA",
+            Partido.Renovacion_Popular,
+            "https://i.imgur.com/lTUioyj.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+        private val cMIRAFLORES16 = Candidato(
+            "PERCY ALEX BELLIDO REYES",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/Jt3rBFc.jpg",
+            loremIpsum,
+            Distrito.MIRAFLORES
+        )
+
+
 
         //Candidatos Paucarpata
         private val candidatopau1 = Candidato(
@@ -1432,11 +1513,24 @@ data class Candidato(
             cMARIANO_MELGAR13,
 
             //Candidatos Miraflores
-            candidatomir1,
-            candidatomir2,
-            candidatomir3,
-            candidatomir4,
-            candidatomir5,
+            cMIRAFLORES0,
+            cMIRAFLORES1,
+            cMIRAFLORES2,
+            cMIRAFLORES3,
+            cMIRAFLORES4,
+            cMIRAFLORES5,
+            cMIRAFLORES6,
+            cMIRAFLORES7,
+            cMIRAFLORES8,
+            cMIRAFLORES9,
+            cMIRAFLORES10,
+            cMIRAFLORES11,
+            cMIRAFLORES12,
+            cMIRAFLORES13,
+            cMIRAFLORES14,
+            cMIRAFLORES15,
+            cMIRAFLORES16,
+
             //Candidatos Paucarpata
             candidatopau1,
             candidatopau2,
