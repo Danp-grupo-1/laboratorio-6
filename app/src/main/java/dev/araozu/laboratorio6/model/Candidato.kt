@@ -1,5 +1,9 @@
 package dev.araozu.laboratorio6.model
 
+const val loremIpsum =
+    "\"Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet \" +\n" +
+            "\"obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!\","
+
 data class Candidato(
     var nombre: String,
     var partido: Partido,
@@ -9,7 +13,6 @@ data class Candidato(
     var foto: String,
     var biografia: String,
     var distrito: Distrito,
-    val id: Int = 0,
 ) {
 
     companion object {
@@ -550,46 +553,133 @@ data class Candidato(
         )
 
         //Candidatos Jacobo Hunter
-        private val candidatohunt1 = Candidato(
-            "Cecilia Imelda Fuentes Guerra",
+        private val cJACOBO_HUNTER0 = Candidato(
+            "AURELIA LUPE PILA BARREDA",
+            Partido.Arequipa_Renace,
+            "https://i.imgur.com/M8i6Ht7.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER1 = Candidato(
+            "CECILIA IMELDA FUENTES GUERRA",
             Partido.Avanza_Pais_Partido_De_Integracion_Social,
-            "https://i.imgur.com/8njp1FIb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/FNiV7Ks.jpg",
+            loremIpsum,
             Distrito.JACOBO_HUNTER
         )
-        private val candidatohunt2 = Candidato(
-            "Sergio Alfredo Barriga Rodriguez",
-            Partido.Movimiento_Regional_Reveladora,
-            "https://i.imgur.com/toYFurSb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cJACOBO_HUNTER2 = Candidato(
+            "CHRISTIAN ALEXANDER ARCE MACHACA",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/4KhPbma.jpg",
+            loremIpsum,
             Distrito.JACOBO_HUNTER
         )
-        private val candidatohunt3 = Candidato(
-            "Jummy Edgardo Vargas Espinoza",
-            Partido.Partido_Democratico_Somos_Peru,
-            "https://i.imgur.com/shu3L39b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.JACOBO_HUNTER
-        )
-        private val candidatohunt4 = Candidato(
-            "Reger Andia Romero",
-            Partido.Movimineto_Regional_Arequipa_Avancemos,
-            "https://i.imgur.com/9QLVAlBb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.JACOBO_HUNTER
-        )
-        private val candidatohunt5 = Candidato(
-            "David Apaza Enriquez",
+        private val cJACOBO_HUNTER3 = Candidato(
+            "DAVID APAZA ENRIQUEZ",
             Partido.Fuerza_Arequipenya,
-            "https://i.imgur.com/hhcStwmb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/0WjaBgm.jpg",
+            loremIpsum,
             Distrito.JACOBO_HUNTER
         )
+        private val cJACOBO_HUNTER4 = Candidato(
+            "ELSA ELENA ACOSTA VARGAS",
+            Partido.Arequipa_Tradicion_Futuro,
+            "https://i.imgur.com/kUIfR2R.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER5 = Candidato(
+            "ENRIQUE MENESES QUISPE",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/ustSe1Z.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER6 = Candidato(
+            "HERNAN ALEJANDRO TORRES MEDINA",
+            Partido.Arequipa_Unidos_Por_El_Gran_Cambio,
+            "https://i.imgur.com/06IWruP.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER7 = Candidato(
+            "JIMMY EDGARDO VARGAS ESPINOZA",
+            Partido.Partido_Democratico_Somos_Peru,
+            "https://i.imgur.com/fzlQScC.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER8 = Candidato(
+            "JOSE LUIS CARDENAS DELGADO",
+            Partido.Partido_Morado,
+            "https://i.imgur.com/fbe3Gbj.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER9 = Candidato(
+            "JUAN YNTI LLERENA MEZA",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/SP4Phvj.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER10 = Candidato(
+            "JULIO CESAR ARO MADARIAGA",
+            Partido.Alianza_Para_El_Progreso,
+            "https://i.imgur.com/fHLsxv1.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER11 = Candidato(
+            "LEONARDO JESUS ALVAREZ TICONA",
+            Partido.Arequipa_transformacion,
+            "https://i.imgur.com/7I10bj8.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER12 = Candidato(
+            "MAGNO LOAYZA AQUINO",
+            Partido.Fe_En_El_Peru,
+            "https://i.imgur.com/d9zCvW4.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER13 = Candidato(
+            "MANUEL ARMANDO CHAVEZ SANCHEZ",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/WxPjxdJ.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER14 = Candidato(
+            "NEY HAMILTON OJEDA CONDE",
+            Partido.Renovacion_Popular,
+            "https://i.imgur.com/4OW0rss.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER15 = Candidato(
+            "ROGER ANDIA ROMERO",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/mfEdULS.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER16 = Candidato(
+            "SERGIO ALFREDO BARRIGA RODRIGUEZ",
+            Partido.Movimiento_Regional_Reveladora,
+            "https://i.imgur.com/FCuwX9E.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+        private val cJACOBO_HUNTER17 = Candidato(
+            "TONY HILARIO GONZALES",
+            Partido.Movimiento_Regional_Del_Ajo_Justicia_Y_Orden,
+            "https://i.imgur.com/tN5h4ua.jpg",
+            loremIpsum,
+            Distrito.JACOBO_HUNTER
+        )
+
 
         //Candidatos Jose luis Bustamante y Rivero
         private val candidatojlb1 = Candidato(
@@ -1115,12 +1205,26 @@ data class Candidato(
             candidatochi5,
             candidatochi6,
             candidatochi7,
-            //Candidatos Javobo HUnter
-            candidatohunt1,
-            candidatohunt2,
-            candidatohunt3,
-            candidatohunt4,
-            candidatohunt5,
+            //Candidatos Jacobo HUnter
+            cJACOBO_HUNTER0,
+            cJACOBO_HUNTER1,
+            cJACOBO_HUNTER2,
+            cJACOBO_HUNTER3,
+            cJACOBO_HUNTER4,
+            cJACOBO_HUNTER5,
+            cJACOBO_HUNTER6,
+            cJACOBO_HUNTER7,
+            cJACOBO_HUNTER8,
+            cJACOBO_HUNTER9,
+            cJACOBO_HUNTER10,
+            cJACOBO_HUNTER11,
+            cJACOBO_HUNTER12,
+            cJACOBO_HUNTER13,
+            cJACOBO_HUNTER14,
+            cJACOBO_HUNTER15,
+            cJACOBO_HUNTER16,
+            cJACOBO_HUNTER17,
+
             //Candidatos Jose Luis Bustamente y Rivero
             candidatojlb1,
             candidatojlb2,
