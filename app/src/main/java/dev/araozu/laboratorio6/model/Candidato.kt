@@ -682,46 +682,147 @@ data class Candidato(
 
 
         //Candidatos Jose luis Bustamante y Rivero
-        private val candidatojlb1 = Candidato(
-            "Ronldo Pablo Ibañez Barreda",
-            Partido.Arequipa_Tradicion_Futuro,
-            "https://i.imgur.com/cLQOfneb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO0 = Candidato(
+            "ALEXIS MICHAEL IBARCENA ALVIS",
+            Partido.Renovacion_Popular,
+            "https://i.imgur.com/g3gHdan.jpg",
+            loremIpsum,
             Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
         )
-        private val candidatojlb2 = Candidato(
-            "Guillermo Pablo Reinoso Barletti",
-            Partido.Movimiento_Regional_Reveladora,
-            "https://i.imgur.com/xQTPlIMb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO1 = Candidato(
+            "ALFREDO HERBERT RAMIREZ MARRON",
+            Partido.Avanza_Pais_Partido_De_Integracion_Social,
+            "https://i.imgur.com/YEWvAeh.jpg",
+            loremIpsum,
             Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
         )
-        private val candidatojlb3 = Candidato(
-            "David Zapata Lovaton",
-            Partido.Fuerza_Arequipenya,
-            "https://i.imgur.com/tR2NkuJb.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO2 = Candidato(
+            "ALVARO CESAR ANAHUA CCAMA",
+            Partido.Partido_Frente_De_La_Esperanza_2021,
+            "https://i.imgur.com/DvxsGoD.jpg",
+            loremIpsum,
             Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
         )
-        private val candidatojlb4 = Candidato(
-            "Cesar Mario Flores Ytusaca",
-            Partido.Partido_Democratico_Somos_Peru,
-            "https://i.imgur.com/GaBg3f9b.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
-            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
-        )
-        private val candidatojlb5 = Candidato(
-            "Carlo Ramiro Aliaga Nuñez",
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO3 = Candidato(
+            "CARLO RAMIRO ALIAGA NUÑEZ",
             Partido.Arequipa_transformacion,
-            "https://i.imgur.com/9v2lwWub.jpg",
-            "Mas informacion:  ipsum, dolor sit amet consectetur adipisicing elit. Cum nam ab quae impedit repudiandae, sunt pariatur facere amet " +
-                    "obcaecati iusto repellat, officiis incidunt rerum nesciunt necessitatibus? Culpa voluptas autem excepturi!",
+            "https://i.imgur.com/F2m2gQ1.jpg",
+            loremIpsum,
             Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
         )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO4 = Candidato(
+            "CESAR MARIO FLORES YTUSACA",
+            Partido.Partido_Democratico_Somos_Peru,
+            "https://i.imgur.com/NGErAwN.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO5 = Candidato(
+            "DAVID ZAPATA LOVATÓN",
+            Partido.Fuerza_Arequipenya,
+            "https://i.imgur.com/JDLqxCn.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO6 = Candidato(
+            "EDISSON STEVE RODRIGUEZ VALENCIA",
+            Partido.Arequipa_Renace,
+            "https://i.imgur.com/3QxOQHs.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO7 = Candidato(
+            "ELIZABETH FELICITAS ROSELLO QUINTEROS",
+            Partido.Juntos_Por_El_Peru,
+            "https://i.imgur.com/BH6154i.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO8 = Candidato(
+            "FREDY JAVIER ZEGARRA BLACK",
+            Partido.Movimineto_Regional_Arequipa_Avancemos,
+            "https://i.imgur.com/rJ0gNHF.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO9 = Candidato(
+            "GONZALO BRICEÑO LIRA",
+            Partido.Partido_Morado,
+            "https://i.imgur.com/YSY0mz0.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO10 = Candidato(
+            "GUILLERMO PABLO REINOSO BARLETTI",
+            Partido.Movimiento_Regional_Reveladora,
+            "https://i.imgur.com/ry7WkTX.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO11 = Candidato(
+            "JIMMY RENZO OJEDA ARNICA",
+            Partido.Juntos_Por_El_Desarrollo_De_Arequipa,
+            "https://i.imgur.com/9fgDOEX.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO12 = Candidato(
+            "JORGE ANTONIO ZAPANA VELASCO",
+            Partido.Alianza_Para_El_Progreso,
+            "https://i.imgur.com/Q4tDHq5.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO13 = Candidato(
+            "JORGE LUIS PINTO APAZA",
+            Partido.Movimiento_Regional_Del_Ajo_Justicia_Y_Orden,
+            "https://i.imgur.com/7QLOla1.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO14 = Candidato(
+            "JULIO ERNESTO FEDERICO ZEGARRA POLAR",
+            Partido.Accion_Popular,
+            "https://i.imgur.com/8tqGO8i.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO15 = Candidato(
+            "LORENZO ANSGARIO COLQUE GONZA",
+            Partido.Partido_Politico_Nacional_Peru_Libre,
+            "https://i.imgur.com/j3gp5WD.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO16 = Candidato(
+            "MANUEL JESUS GUTIERREZ FLORES",
+            Partido.Accion_Popular,
+            "https://i.imgur.com/QlQY7kI.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO17 = Candidato(
+            "RAUL MIGUEL ROBLES BORDA",
+            Partido.Arequipa_Unidos_Por_El_Gran_Cambio,
+            "https://i.imgur.com/G5JzQSs.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO18 = Candidato(
+            "RONALD PABLO IBAÑEZ BARREDA",
+            Partido.Arequipa_Tradicion_Futuro,
+            "https://i.imgur.com/T7fTNel.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+        private val cJOSE_LUIS_BUSTAMANTE_Y_RIVERO19 = Candidato(
+            "SHIRLEY ELBA ALCOCER PAUCA",
+            Partido.Yo_Arequipa,
+            "https://i.imgur.com/gs1teQ7.jpg",
+            loremIpsum,
+            Distrito.JOSE_LUIS_BUSTAMANTE_Y_RIVERO
+        )
+
 
         //Candidatos Mariano Melgar
         private val candidatomm1 = Candidato(
@@ -1226,11 +1327,27 @@ data class Candidato(
             cJACOBO_HUNTER17,
 
             //Candidatos Jose Luis Bustamente y Rivero
-            candidatojlb1,
-            candidatojlb2,
-            candidatojlb3,
-            candidatojlb4,
-            candidatojlb5,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO0,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO1,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO2,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO3,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO4,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO5,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO6,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO7,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO8,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO9,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO10,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO11,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO12,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO13,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO14,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO15,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO16,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO17,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO18,
+            cJOSE_LUIS_BUSTAMANTE_Y_RIVERO19,
+
             //Candiadtos Mariano Melgar
             candidatomm1,
             candidatomm2,
