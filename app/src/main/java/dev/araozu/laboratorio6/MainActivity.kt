@@ -54,7 +54,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun CandidatosList(
     viewModel: CandidatoViewModel
@@ -67,18 +66,13 @@ fun CandidatoInfoList(
     candidatoList: Flow<PagingData<Candidato>>
 ) {
     val candidatesListItems: LazyPagingItems<Candidato> = candidatoList.collectAsLazyPagingItems()
-    Log.e("wasd",candidatesListItems.itemCount.toString())
-
     LazyColumn {
         items(candidatesListItems) {
             candidato -> TarjetaCandidato2(candidato = candidato!!)
         }
     }
 }
-
-
-
-
+/*
 @Composable
 fun TarjetaCandidato2(
     candidato: Candidato
@@ -125,6 +119,50 @@ fun TarjetaCandidato2(
                         modifier = Modifier.padding(end = 25.dp)
                     )
                 }
+            }
+        }
+    }
+}
+*/
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TarjetaCandidato2(
+    candidato: Candidato
+) {
+
+    ElevatedCard(
+        shape = androidx.compose.material3.MaterialTheme.shapes.medium,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(
+            verticalAlignment = Alignment.Top,
+            // modifier = Modifier.padding(horizontal = 10.dp),
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.user),
+                contentDescription = "Imagen de perfil",
+                modifier = Modifier
+                    .height(150.dp)
+                // .clip(CircleShape),
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+            Column(
+                horizontalAlignment = Alignment.Start,
+            ) {
+                androidx.compose.material3.Text(
+                    text = candidato.nombre,
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Medium
+                )
+                androidx.compose.material3.Text(
+                    text = candidato.partido.nombre.toString(),
+                    fontWeight = FontWeight.Light,
+                )
+                androidx.compose.material3.Text(
+                    text = candidato.distrito.toString(),
+                    fontWeight = FontWeight.Light,
+                )
             }
         }
     }
