@@ -23,7 +23,9 @@ import dev.araozu.laboratorio6.model.Candidato
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TarjetaCandidato(candidato: Candidato) {
+fun TarjetaCandidato(
+    candidato: Candidato
+) {
     val tarjetaAbierta = remember { mutableStateOf(false) }
 
     ElevatedCard(
